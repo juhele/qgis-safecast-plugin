@@ -207,7 +207,7 @@ class SafecastLayer(QgsVectorLayer):
 
         # compute ader_microSvh
         try:
-            ader = int(row[3]) * 0.0028571429
+            ader = int(row[3]) * 0.0029940119760479
         except ValueError:
             ader = -1
         row.insert(0, ader)
